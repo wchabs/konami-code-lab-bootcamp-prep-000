@@ -13,4 +13,6 @@ function init() {
   
   body.addEventListener('keyDown', checkCode);
 
-} 
+}
+
+init();

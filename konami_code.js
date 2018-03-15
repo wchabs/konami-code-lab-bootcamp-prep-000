@@ -4,15 +4,13 @@ let index = 0;
 
 function init() {
   let body = document.querySelector('body');
-  
-  console.log(body);
+  body.addEventListener('keyDown', checkCode);
   
   function checkCode(e){
     
   }
   
-  body.addEventListener('keyDown', checkCode);
+  
 
 }
 
-init();

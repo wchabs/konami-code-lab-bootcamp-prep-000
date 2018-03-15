@@ -5,6 +5,8 @@ let index = 0;
 function init() {
   let body = document.querySelector('body');
   
+  console.log(body);
+  
   function checkCode(e){
     
   }

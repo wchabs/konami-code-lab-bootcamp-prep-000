@@ -7,10 +7,17 @@ function init() {
   body.addEventListener('keyDown', checkCode);
   
   function checkCode(e){
-    
+    const key = parseInt(e.detail || e.which);
+    if (key === code[i]) {
+      index++;
+      
+      if (key === code.length) {
+        alert("code compelte");
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
   }
-  
-  
-
 }
 
